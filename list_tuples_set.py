@@ -41,5 +41,23 @@ l = [1,6,3,7,89,223,112,887,221]
 #l.sort(reverse=True)
 #l.reverse()
 sorted(l)
-print(l)
+#print(l)
+
+
+# tuples are immutable. ie. you cant update or remove items for it.
+
+# sets
+# sets are mutable (at base)    
+# cannot function with indexing
+
+s = {"Omkar", " Dara", "Kushal"}
+#print(dir(s))
+
+s.add("Jan")
+#print(s)
+
+s = frozenset(s)
+print(dir(s))
+
+
 
