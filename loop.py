@@ -1,39 +1,39 @@
-# # While
+# While
 
-# number = 7
+number = 7
 
-# play = input("Would you like to play ? y/n ")
+play = input("Would you like to play ? y/n ")
 
-# while play != 'n' :
-#     user_input = int(input("Guess the number : "))
-#     if user_input == number:
-#         print("You guessed it correctly!")
-#     elif abs(number - user_input) == 1:
-#         print("You missed guessing by 1!")
-#     else:
-#         print("Sorry its wrong!")
+while play != 'n' :
+    user_input = int(input("Guess the number : "))
+    if user_input == number:
+        print("You guessed it correctly!")
+    elif abs(number - user_input) == 1:
+        print("You missed guessing by 1!")
+    else:
+        print("Sorry its wrong!")
 
-#     play = input("Would you like to play ? y/n ")
-
-
-# # while True:
-# #     print("you are hacked")
+    play = input("Would you like to play ? y/n ")
 
 
+# while True:
+#     print("you are hacked")
 
-# while True :
-#     play = input("Would you like to play ? y/n ")
 
-#     if play == 'n':
-#         break  
+
+while True :
+    play = input("Would you like to play ? y/n ")
+
+    if play == 'n':
+        break  
     
-#     user_input = int(input("Guess the number : "))
-#     if user_input == number:
-#         print("You guessed it correctly!")
-#     elif abs(number - user_input) == 1:
-#         print("You missed guessing by 1!")
-#     else:
-#         print("Sorry its wrong!")
+    user_input = int(input("Guess the number : "))
+    if user_input == number:
+        print("You guessed it correctly!")
+    elif abs(number - user_input) == 1:
+        print("You missed guessing by 1!")
+    else:
+        print("Sorry its wrong!")
     
 
 # For loop
